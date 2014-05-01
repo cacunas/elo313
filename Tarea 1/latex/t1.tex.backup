@@ -23,10 +23,6 @@ Departamento de Electrónica, Universidad Técnica Federico Santa María.\\
 
 \maketitle
 
-\begin{abstract}
-
-\end{abstract}
-
 \section{Evaluaci\'on de Propiedades de Sistemas}
 
 Se pide verificar las propiedades de invariancia en el tiempo, linealidad y 
@@ -35,27 +31,40 @@ causalidad para ciertos sistemas desconocidos \verb|bbox1|, \verb|bbox2| y
 
 \subsection{Invariancia en el tiempo}
 
-Para probar esta propiedad, los sistemas son estimulados con 
+Para probar esta propiedad, los sistemas son estimulados con pulso cuadrado de 
+largo total 30 ($\mu[n-10]-\mu[n-20]$), y luego estimulados con la misma 
+se\~nal con un retraso temporal ($\mu[n-15]-\mu[n-25]$). Para dichos sistemas, 
+se presentan los resultados de estos est\'imulos en las figuras 
+(\ref{fig:img1}), (\ref{fig:img2}) y (\ref{fig:img3}) respectivamente.
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.45\textwidth]{../img/img1.png}
-  %\caption{Configuración actual de la memoria RAM (3/3).}
+  \caption{Respuesta de bbox1.}
   \label{fig:img1}
 \end{figure}
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.45\textwidth]{../img/img2.png}
-  %\caption{Configuración actual de la memoria RAM (3/3).}
+  \caption{Respuesta de bbox2.}
   \label{fig:img2}
 \end{figure}
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.45\textwidth]{../img/img3.png}
-  %\caption{Configuración actual de la memoria RAM (3/3).}
-  \label{fig:img2}
+  \caption{Respuesta de bbox3.}
+  \label{fig:img3}
 \end{figure}
+
+Se puede apreciar en la figura (\ref{fig:img2}) que la respuesta de \verb|bbox2|
+ante una se\~nal no es la misma se\~nal retrasada. En este caso corresponde a 
+una se\~nal diferente. Por lo tanto, se puede concluir que \verb|bbox2| es un 
+sistema que var\'ia con el tiempo.
+
+\subsection{Linealidad}
+
+
 
 \end{document}

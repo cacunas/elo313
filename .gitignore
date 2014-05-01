@@ -1,2 +1,6 @@
 # Compiled
 *.elc
+*.aux
+*.out
+*.log
+*.backup

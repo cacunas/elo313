@@ -3,6 +3,10 @@
 %%%%% Tarea 1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Invariacia en el Tiempo %%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 xi=1;
 xf=30;
 
@@ -60,10 +64,111 @@ xlabel('n');
 ylabel('bbox3[n]');
 saveas(img,'../img/img3.png');
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Linealidad %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%% señales de prueba x1 y x2
+x1 = x;
+x2 = sin(n/3);
+
+%%% Prueba para bbox1
+img=figure(4);
+
+subplot(2,2,1);
+y11 = bbox1(x1);
+plot(n,y11,'r-s');
+xlabel('n');
+title('Respuesta de bbox1 a escalón');
+grid;
+
+subplot(2,2,2);
+y12 = bbox1(x2);
+plot(n,y12,'b-*');
+xlabel('n');
+title('Respuesta de bbox1 a sinusoide');
+grid;
+
+subplot(2,2,3);
+y13 = y11 + y12;
+plot(n,y13,'r-^');
+xlabel('n');
+title('Suma de respuesta a escalón y a sinusoide');
+grid;
+
+subplot(2,2,4);
+y14 = bbox1(x1+x2);
+plot(n,y14,'b-^');
+xlabel('n');
+title('Respuesta de suma de escalón y sinusoide');
+grid;
+
+saveas(img,'../img/img4.png');
 
 
+%%% Prueba para bbox2
+img=figure(5);
+
+subplot(2,2,1);
+y11 = bbox2(x1);
+plot(n,y11,'r-s');
+xlabel('n');
+title('Respuesta de bbox2 a escalón');
+grid;
+
+subplot(2,2,2);
+y12 = bbox2(x2);
+plot(n,y12,'b-*');
+xlabel('n');
+title('Respuesta de bbox2 a sinusoide');
+grid;
+
+subplot(2,2,3);
+y13 = y11 + y12;
+plot(n,y13,'r-^');
+xlabel('n');
+title('Suma de respuesta a escalón y a sinusoide');
+grid;
+
+subplot(2,2,4);
+y14 = bbox2(x1+x2);
+plot(n,y14,'b-^');
+xlabel('n');
+title('Respuesta de suma de escalón y sinusoide');
+grid;
+
+saveas(img,'../img/img5.png');
 
 
+%%% Prueba para bbox3
+img=figure(6);
 
+subplot(2,2,1);
+y11 = bbox3(x1);
+plot(n,y11,'r-s');
+xlabel('n');
+title('Respuesta de bbox3 a escalón');
+grid;
 
+subplot(2,2,2);
+y12 = bbox3(x2);
+plot(n,y12,'b-*');
+xlabel('n');
+title('Respuesta de bbox3 a sinusoide');
+grid;
 
+subplot(2,2,3);
+y13 = y11 + y12;
+plot(n,y13,'r-^');
+xlabel('n');
+title('Suma de respuesta a escalón y a sinusoide');
+grid;
+
+subplot(2,2,4);
+y14 = bbox3(x1+x2);
+plot(n,y14,'b-^');
+xlabel('n');
+title('Respuesta de suma de escalón y sinusoide');
+grid;
+
+saveas(img,'../img/img6.png');
