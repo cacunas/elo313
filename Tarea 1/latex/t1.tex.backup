@@ -1,0 +1,61 @@
+\documentclass[10pt,conference,a4paper]{IEEEtran}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{enumerate}
+\usepackage[spanish]{babel}
+\usepackage[hidelinks]{hyperref}
+
+%opening
+\title{[ELO313] Procesamiento Digital de Se\~nales\\ 
+Tarea I}
+\author{Cristian Acuña S.{\small $~^1$}
+\vspace{1.6mm}\\
+Departamento de Electrónica, Universidad Técnica Federico Santa María.\\
+	Avenida España 1680, Valparaíso, Chile.\\
+	\fontsize{9}{9}\selectfont\ttfamily\upshape
+
+	$~^{1}$\,cristian.acuna@alumnos.usm.cl (2921006-3)
+}
+\date{6 de Mayo de 2014}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+
+\end{abstract}
+
+\section{Evaluaci\'on de Propiedades de Sistemas}
+
+Se pide verificar las propiedades de invariancia en el tiempo, linealidad y 
+causalidad para ciertos sistemas desconocidos \verb|bbox1|, \verb|bbox2| y 
+\verb|bbox3|.
+
+\subsection{Invariancia en el tiempo}
+
+Para probar esta propiedad, los sistemas son estimulados con 
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.45\textwidth]{../img/img1.png}
+  %\caption{Configuración actual de la memoria RAM (3/3).}
+  \label{fig:img1}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.45\textwidth]{../img/img2.png}
+  %\caption{Configuración actual de la memoria RAM (3/3).}
+  \label{fig:img2}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.45\textwidth]{../img/img3.png}
+  %\caption{Configuración actual de la memoria RAM (3/3).}
+  \label{fig:img2}
+\end{figure}
+
+\end{document}
