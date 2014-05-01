@@ -97,4 +97,53 @@ figuras (\ref{fig:img4}), (\ref{fig:img5}) y (\ref{fig:img6}).
 Por lo tanto, se puede concluir de la figura (\ref{fig:img6}) que el sistema 
 \verb|bbox3| es no-lineal.
 
+\subsection{Causalidad y Estabilidad (BIBO)}
+
+Para poder probar la \emph{causalidad} y la \emph{estabilidad} (\emph{BIBO})
+de los sistemas entregados, se procede a estimularlos con un impulso discreto 
+(Delta de Kr\"onecker) desplazado en el tiempo ($\delta_K(t-14)$). Los 
+resultados se muestran en las figuras (\ref{fig:img7}), (\ref{fig:img8}) y 
+(\ref{fig:img9}).
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.45\textwidth]{../img/img7.png}
+  \caption{Respuesta de bbox1.}
+  \label{fig:img7}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.45\textwidth]{../img/img8.png}
+  \caption{Respuesta de bbox2.}
+  \label{fig:img8}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.45\textwidth]{../img/img9.png}
+  \caption{Respuesta de bbox3.}
+  \label{fig:img9}
+\end{figure}
+
+De las figuras anteriores, se puede concluir:
+
+\begin{itemize}
+ \item El sistema \verb|bbox1| presenta respuesta en tiempos anteriores al 
+tiempo de exitaci\'on, por lo cual se puede decir que es un sistema 
+\textbf{no-causal}. Con respecto a su estabilidad, se puede observar que el 
+sistema luego de ser excitado vuelve a su estado de reposo, por lo que es un 
+sistema \textbf{estable} seg\'un el criterio BIBO.
+ \item El sistema \verb|bbox2| presenta respuesta a excitaci\'on en tiempos 
+anteriores al tiempo de excitaci\'on, por lo cual corresponde a un sistema 
+\textbf{no-causal}. En cuanto a su estabilidad, es sistema no vuelve al reposo 
+luego de ser estimulado, sino que se mantiene excitado, por lo que corresponde 
+a un sistema \textbf{inestable}.
+ \item El sistema \verb|bbox3| no presenta respuesta en tiempos previos a ser 
+excitado, por lo que corresponde a un sistema \textbf{causal}. Adem\'as, el 
+sistema no presenta se\~nal luego de ser excitado, por lo que corresponde a un 
+sistema \textbf{estable}.
+\end{itemize}
+
+
 \end{document}

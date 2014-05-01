@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.4.19)  1 MAY 2014 18:33
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.4.19)  1 MAY 2014 19:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -593,13 +593,13 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 32.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 35.
- <../img/img1.png, id=19, 578.16pt x 433.62pt>
+ <../img/img1.png, id=23, 578.16pt x 433.62pt>
 File: ../img/img1.png Graphic file (type png)
  <use ../img/img1.png>
 Package pdftex.def Info: ../img/img1.png used on input line 42.
 (pdftex.def)             Requested size: 232.19843pt x 174.14627pt.
 
-<../img/img2.png, id=20, 578.16pt x 433.62pt>
+<../img/img2.png, id=24, 578.16pt x 433.62pt>
 File: ../img/img2.png Graphic file (type png)
  <use ../img/img2.png>
 Package pdftex.def Info: ../img/img2.png used on input line 49.
@@ -608,7 +608,7 @@ Package pdftex.def Info: ../img/img2.png used on input line 49.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-<../img/img3.png, id=21, 578.16pt x 433.62pt>
+<../img/img3.png, id=25, 578.16pt x 433.62pt>
 File: ../img/img3.png Graphic file (type png)
  <use ../img/img3.png>
 Package pdftex.def Info: ../img/img3.png used on input line 56.
@@ -654,19 +654,19 @@ Package babel Info: Redefining spanish shorthand "?
 
  <../img/img1.png (PNG copy)> <../img/img2.png (PNG copy)> <../img/img3.png (PN
 G copy)>]
-<../img/img4.png, id=41, 578.16pt x 433.62pt>
+<../img/img4.png, id=45, 578.16pt x 433.62pt>
 File: ../img/img4.png Graphic file (type png)
  <use ../img/img4.png>
 Package pdftex.def Info: ../img/img4.png used on input line 78.
 (pdftex.def)             Requested size: 232.19843pt x 174.14627pt.
 
-<../img/img5.png, id=42, 578.16pt x 433.62pt>
+<../img/img5.png, id=46, 578.16pt x 433.62pt>
 File: ../img/img5.png Graphic file (type png)
  <use ../img/img5.png>
 Package pdftex.def Info: ../img/img5.png used on input line 85.
 (pdftex.def)             Requested size: 232.19843pt x 174.14627pt.
 
-<../img/img6.png, id=43, 578.16pt x 433.62pt>
+<../img/img6.png, id=47, 578.16pt x 433.62pt>
 File: ../img/img6.png Graphic file (type png)
  <use ../img/img6.png>
 Package pdftex.def Info: ../img/img6.png used on input line 92.
@@ -674,6 +674,65 @@ Package pdftex.def Info: ../img/img6.png used on input line 92.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 100.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 100.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 100.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 100.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 100.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 100.
+
+<../img/img7.png, id=52, 578.16pt x 433.62pt>
+File: ../img/img7.png Graphic file (type png)
+ <use ../img/img7.png>
+Package pdftex.def Info: ../img/img7.png used on input line 110.
+(pdftex.def)             Requested size: 232.19843pt x 174.14627pt.
+
+<../img/img8.png, id=53, 578.16pt x 433.62pt>
+File: ../img/img8.png Graphic file (type png)
+ <use ../img/img8.png>
+Package pdftex.def Info: ../img/img8.png used on input line 117.
+(pdftex.def)             Requested size: 232.19843pt x 174.14627pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 121.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 121.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 121.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 121.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 121.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 121.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 121.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 121.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 121.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 121.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 121.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 121.
+ [2 <../img/img4.png (PNG copy)> <../img/img5.png (PNG copy)> <../img/img6.png 
+(PNG copy)> <../img/img7.png (PNG copy)>] <../img/img9.png, id=65, 578.16pt x 4
+33.62pt>
+File: ../img/img9.png Graphic file (type png)
+
+<use ../img/img9.png>
+Package pdftex.def Info: ../img/img9.png used on input line 124.
+(pdftex.def)             Requested size: 232.19843pt x 174.14627pt.
 
 
 ** Conference Paper **
@@ -686,63 +745,66 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 100.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 149.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 100.
+(babel)             in language  on input line 149.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 100.
+(babel)             in language  on input line 149.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 100.
+(babel)             in language  on input line 149.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 100.
+(babel)             in language  on input line 149.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 100.
+(babel)             in language  on input line 149.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 100.
+(babel)             in language  on input line 149.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 100.
+(babel)             in language  on input line 149.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 100.
+(babel)             in language  on input line 149.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 100.
+(babel)             in language  on input line 149.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 100.
+(babel)             in language  on input line 149.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 100.
+(babel)             in language  on input line 149.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 100.
-[2 <../img/img4.png (PNG copy)> <../img/img5.png (PNG copy)> <../img/img6.png (
-PNG copy)>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 100.
+(babel)             in language  on input line 149.
+[3
+
+ <../img/img8.png (PNG copy)> <../img/img9.png (PNG copy)>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 149.
  (./t1.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 100.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 100.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 149.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 149.
 Package rerunfilecheck Info: File `t1.out' has not changed.
-(rerunfilecheck)             Checksum: A00FE162C228EFC87B854EF5F04919CE;207.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 100.
+(rerunfilecheck)             Checksum: 22B97B0FCA9750ADE5E5F5FDECEB3535;289.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 149.
  ) 
 Here is how much of TeX's memory you used:
- 6818 strings out of 494925
- 101842 string characters out of 6178544
- 192095 words of memory out of 5000000
- 9962 multiletter control sequences out of 15000+600000
- 33657 words of font info for 70 fonts, out of 8000000 for 9000
+ 6845 strings out of 494925
+ 102212 string characters out of 6178544
+ 192215 words of memory out of 5000000
+ 9980 multiletter control sequences out of 15000+600000
+ 34764 words of font info for 71 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
  29i,9n,32p,250b,339s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
-w/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8
-a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on t1.pdf (2 pages, 191416 bytes).
+f-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/couri
+er/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on t1.pdf (3 pages, 253051 bytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
- 63 compressed objects within 1 object stream
- 12 named destinations out of 1000 (max. 500000)
- 55 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 107 PDF objects out of 1000 (max. 8388607)
+ 83 compressed objects within 1 object stream
+ 17 named destinations out of 1000 (max. 500000)
+ 78 words of extra memory for PDF output out of 10000 (max. 10000000)
 
