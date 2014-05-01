@@ -172,3 +172,48 @@ title('Respuesta de suma de escalón y sinusoide');
 grid;
 
 saveas(img,'../img/img6.png');
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Causalidad y Estabilidad BIBO %%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% señal Delta Kronecker
+x = zeros(xi,xf);
+x(floor((xf-xi)/2)) = 1;
+
+% Excitaciones de bbox1 a D_k
+y = bbox1(x);
+
+img = figure(7);
+plot(n,y,'r-s');
+xlabel('n');
+title('Respuesta a impulso bbox1');
+grid;
+
+saveas(img,'../img/img7.png');
+
+
+% Excitaciones de bbox2 a D_k
+y = bbox2(x);
+
+img = figure(8);
+plot(n,y,'r-s');
+xlabel('n');
+title('Respuesta a impulso bbox2');
+grid;
+
+saveas(img,'../img/img8.png');
+
+% Excitaciones de bbox3 a D_k
+y = bbox3(x);
+
+img = figure(9);
+plot(n,y,'r-s');
+xlabel('n');
+title('Respuesta a impulso bbox3');
+grid;
+
+saveas(img,'../img/img9.png');
+
+
