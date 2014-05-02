@@ -145,5 +145,42 @@ sistema no presenta se\~nal luego de ser excitado, por lo que corresponde a un
 sistema \textbf{estable}.
 \end{itemize}
 
+\section{Inversi\'on de Sistemas}
+
+Se tiene el sistema $y=S_A(x):\ y[n]=\frac{1}{2}y[n-1]-x[n]$. Se desea 
+encontrar un sistema $y=S_B(x)$ tal que $\delta[n]=S_B(S_A(\delta[n]))$.\\
+
+Usando la Transformada Zeta, se puede expresar $S_A(x)$ como en la ecuaci\'on 
+(\ref{eq:1}).
+
+\begin{eqnarray*}
+\label{eq:1}
+Y(z)\left(1-\frac{1}{2}z^{-1}\right)=-X(z)\\
+H_A(z)=\frac{Y(z)}{X(z)}=\frac{-1}{1-\frac{1}{2}z^{-1}}\nonumber
+\end{eqnarray*}
+
+A partir de la ecuaci\'on (\ref{eq:1}), se puede definir 
+$H_B(z)=\frac{1}{H_A(z)}$.
+
+Replanteando la ecuaci\'on de diferencias a partir de $H_B(z)$, se puede 
+obtener la ecuaci\'on (\ref{eq:2}).
+
+\begin{equation}
+ \label{eq:2}
+ y[n]=0.5x[n-1]-x[n]
+\end{equation}
+
+Implementando dichas ecuaciones en \textsc{MATLAB}\textregistered, se obtienen 
+las respuestas a impulso mostradas en (\ref{fig:img10}).
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.45\textwidth]{../img/img10.png}
+  \caption{Respuesta impulso para $S_A$, $S_B$ y $S_B(S_A)$ respectivamente.}
+  \label{fig:img10}
+\end{figure}
+
+Con esto, se puede apreciar que la ecuaci\'on obtenida en (\ref{eq:2}) es 
+efectivamente el inverso de $S_A$.
 
 \end{document}

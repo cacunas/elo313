@@ -216,4 +216,61 @@ grid;
 
 saveas(img,'../img/img9.png');
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Parte 2 %%
+
+clear;
+clc;
+
+xi = 1;
+xf = 30;
+n = xi:xf;
+
+% señal Delta Kronecker
+x = zeros(xi,xf);
+x(floor((xf-xi)/2)) = 1;
+
+%%% Sistema de diferencias
+
+% y1 = zeros(xi,xf);
+% for i = xi:xf
+%     if i == 1 
+%         y1(i) = -x(i);
+%     else
+%         y1(i) = 0.5*y1(i-1) - x(i);
+%     end
+% end
+% 
+% y2 = zeros(xi,xf);
+% for i = xi:xf
+%     if i == 1
+%         y2(i) = -y1(i);
+%     else
+%         y2(i) = 0.5*y1(i-1) - y1(i);
+%     end
+% end
+
+y1 = Sa(x);
+y2 = Sb(x);
+y3 = Sb(Sa(x));
+
+img = figure (10);
+subplot(3,1,1);
+stem(n,x,'r');
+grid;
+legend('h_A[n]');
+
+subplot(3,1,2);
+stem(n,y2,'b');
+grid;
+legend('h_B[n]');
+
+subplot(3,1,3);
+stem(n,y3,'g');
+grid;
+legend('h_B[h_A[n]]');
+
+saveas(img,'../img/img10.png');
 
